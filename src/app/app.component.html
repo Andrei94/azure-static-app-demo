@@ -1,0 +1,5 @@
+<div>
+  <input placeholder="Secret key" #secretKey>
+  <input #name (keyup)="onKey(name.value, secretKey.value)">
+  {{functionOutput}}
+</div>
